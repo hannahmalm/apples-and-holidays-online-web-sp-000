@@ -63,6 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   
   holiday_hash.each do |season,holiday|
+    #this will print out Season: 
     puts season.to_s.capitalize + ":"
   holiday.each do |holiday, value|
     #splitting words (New_years) at underscore
